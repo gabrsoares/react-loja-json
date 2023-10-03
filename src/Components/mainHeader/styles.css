@@ -1,0 +1,41 @@
+.mainHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    padding: 0 8rem;
+}
+
+.searchBar {
+    display: flex;
+    width: 630px;
+    height: 42px;
+}
+
+.inputBar {
+    padding: .8rem;
+    padding-left: 1.2rem;
+    width: 93%;
+    border-style: none;
+}
+
+.inputBar:focus {
+    outline: none;
+}
+
+.searchButton {
+    width: 8%;
+    padding: .6rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.searchButton:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.wishList {
+    height: 100%;
+    align-items: center;
+}
