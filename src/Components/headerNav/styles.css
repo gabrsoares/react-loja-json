@@ -1,0 +1,48 @@
+.headerNav {
+    align-items: center;
+    padding: 0 19.5rem;
+    height: 41px;
+}
+
+.location {
+    width: 15%;
+    align-items: center;
+    border-right: 1px solid #eee;
+}
+
+.locationIcon {
+    font-size: 1.6rem;
+    margin-right: .3rem;
+}
+
+.locationText {
+    font-size: 12px;
+}
+
+.categories {
+    width: 50%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.categoriesActive {
+    align-items: center;
+}
+
+.categoriesIcon {
+    margin-right: .7rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.categoriesText {
+    color: #666;
+}
+
+.categoriesText:hover {
+    color: #333;
+}

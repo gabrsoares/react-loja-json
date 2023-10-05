@@ -20,15 +20,15 @@ export default function MainHeader() {
         </div>
       </div>
       <div className='wishList white flex'>
-        <AiOutlineHeart className='fw6' />
-        <span className='fw6 f6'>Lista de desejos</span>
+        <AiOutlineHeart className='fw6 b headerIcon' />
+        <span className='fw7 f6'>Lista de desejos</span>
       </div>
       <div className='headerLogin white flex'>
-        <IoPersonOutline />
-        <span>Entrar</span>
+        <IoPersonOutline className='headerIcon' />
+        <span className='fw6 b'>Entrar</span>
       </div>
       <div className='cart white'>
-        <HiOutlineShoppingBag />
+        <HiOutlineShoppingBag className='headerIcon' />
       </div>
     </div>
   )
