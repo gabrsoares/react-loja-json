@@ -1,0 +1,22 @@
+.btn {
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.action-primary {
+    color: #fff;
+    background-color: #222;
+    width: 134px;
+    height: 31px;
+    border-style: none;
+    border-radius: 0;
+}
+   
+
+.action-secondary {
+    color: #000;
+}
+
+.align-action-center {
+    align-self: center;
+}
