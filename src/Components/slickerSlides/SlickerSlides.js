@@ -1,23 +1,24 @@
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import './styles.css'
 import React from 'react'
 import slide01 from '../../images/slide01.png'
 import slide02 from '../../images/slide02.png'
 import slide03 from '../../images/slide03.png'
 import slide04 from '../../images/slide04.png'
 
-export default class SlickerSlides extends React.Component {
-    render() {
-      var settings = {
-        dots: true,
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 4000,
-        pauseOnHover: true
-      };
+const SlickerSlides = () => {
+
+    const settings = {
+      dots: true,
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: false,
+      autoplaySpeed: 4000,
+      pauseOnHover: true
+    };
 
     return (
         <div>
@@ -37,5 +38,6 @@ export default class SlickerSlides extends React.Component {
             </Slider>
       </div>
     )
-    }
 }
+
+export default SlickerSlides
