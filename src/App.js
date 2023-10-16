@@ -23,19 +23,21 @@ function App() {
     })
   }, [])
 
-  const test = () => {
-    console.log(items)
+  if (error) {
+    return <div>Erro: {error.message}</div>;
+  } else if (!isLoaded) {
+    return <div>Carregando...</div>;
+  } else {
+      return (
+        <div className="App">
+          <Header />
+          <SlickerSlides />
+          <OffBanner />
+          <SlickerCategories />
+          <ProductsPopular items={items} />
+        </div>
+      );
   }
-
-  return (
-    <div className="App">
-      <Header />
-      <SlickerSlides />
-      <OffBanner />
-      <SlickerCategories />
-      <ProductsPopular items={items} />
-    </div>
-  );
 }
 
 export default App;
