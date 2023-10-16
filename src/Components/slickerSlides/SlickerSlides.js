@@ -15,13 +15,13 @@ const SlickerSlides = () => {
       infinite: true,
       slidesToShow: 1,
       slidesToScroll: 1,
-      autoplay: false,
+      autoplay: true,
       autoplaySpeed: 4000,
       pauseOnHover: true
     };
 
     return (
-        <div>
+        <div className="slicker-slides">
             <Slider {...settings}>
             <div>
                 <img src={slide01} alt="desconto até 70% em compras à vista"></img>
