@@ -1,5 +1,5 @@
 # Projeto react de um site real
-Projeto feito com o intuito de praticar o uso de pacotes do NPM, design systems, programação funcional, hooks e uma API simulada pelo json-server.
+Projeto feito com o intuito de praticar o uso de pacotes do NPM, design systems(autoria própria), programação funcional, hooks e uma API simulada pelo json-server, com dados inseridos manualmente.
 
 A loja escolhida nesse projeto foi a [Zattini](https://www.zattini.com.br/)
 
